@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Chat Copier for ChatGPT",
+  "short_name": "Chat Copier",
+  "version": "1.0.0",
+  "description": "Copy the current WhatsApp Web conversation as a timestamped transcript and ChatGPT reply prompt.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {
+    "default_title": "Copy WhatsApp chat for ChatGPT",
+    "default_popup": "popup.html",
+    "default_icon": {"16": "icons/icon16.png", "32": "icons/icon32.png"}
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
